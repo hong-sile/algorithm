@@ -70,7 +70,6 @@ void hunt(int y, int x, int time, vector<pair<int,int>> canIntake, int sharkSize
 	if(size==0){
 		minTime=(time<minTime) ? time : minTime;
 	}
-	
 	else if(size==1){
 		pair<int,int>destination(canIntake[0].first,canIntake[0].second);
 		

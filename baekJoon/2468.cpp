@@ -59,7 +59,7 @@ int main(){
 	
 	for(int H=0;H<=maxHeight;H++){
 		bool check[100][100];
-		int count=0;
+		int count=0;	
 		
 		for(int i=0;i<N;i++)
 			for(int j=0;j<N;j++)
