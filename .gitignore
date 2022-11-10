@@ -1,4 +1,7 @@
 */*.o
 */*.out
+*/*.exe
+
+.vscode/
 
 goorm.manifest
