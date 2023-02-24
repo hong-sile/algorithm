@@ -1,17 +1,19 @@
-#include<stdio.h>
-int main(void)
-{
-	int k,n,m,dam;
-	scanf("%d", &k);
-	for(int z=0; z<k; z++)
-	{
-		dam=1;
-		scanf("%d %d", &n, &m);
-		for(int i=0; i<n; i++)
-		{
-			dam*=m-i; 
-			dam/=1+i;
+#include<iostream>
+using namespace std;
+
+int main(){
+	int T;
+	int N, M;
+
+	cin >> T;
+
+	while(T--){
+		cin >> N >> M;
+		int bridge = 1;
+		for(int i = 0; i < N; i++){
+			bridge= bridge*(M-i);
+			bridge= bridge/(1+i);
 		}
-		printf("%d\n", dam);
+		cout << bridge << "\n";
 	}
 }
