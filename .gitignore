@@ -2,7 +2,12 @@
 */*.out
 */*.exe
 */*.xml
+*/*.iml
+*/*.class
+*/*.pb
+*/*.txt
 
 .vscode/
 
 goorm.manifest
+
