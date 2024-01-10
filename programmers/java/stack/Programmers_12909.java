@@ -22,7 +22,6 @@ public class Programmers_12909 {
         sum -= 1;
       }
     }
-
     return sum == 0;
   }
 }
