@@ -7,7 +7,7 @@ import java.util.LinkedList;
 import java.util.Queue;
 import java.util.StringTokenizer;
 
-public class baekjoon_1021 {
+public class BOJ_1021 {
 
     //    private static final String INPUT_DIR = "baekJoon/java/input.txt";
 //    private static final String OUTPUT_DIR = "baekJoon/java/output.txt";
