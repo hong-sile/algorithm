@@ -9,7 +9,7 @@
 //public class Template {
 //
 //    private static final String INPUT_DIR = "baekJoon/java/input.txt";
-//    private static final String OUTPUT_DIR = "output.txt";
+//    private static final String OUTPUT_DIR = "baekJoon/java/output.txt";
 //
 //    public static void main(String[] args) {
 //
