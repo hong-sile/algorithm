@@ -1,3 +1,5 @@
+package brute_force;
+
 import java.io.BufferedReader;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
@@ -27,9 +29,8 @@ public class BOJ_2529 {
 
         Collections.sort(answers);
 
-        for (final String ans : answers) {
-            System.out.println(ans);
-        }
+        System.out.println(answers.get(answers.size() - 1));
+        System.out.println(answers.get(0));
     }
 
     private static void solution(final int index, final String number) {
@@ -37,11 +38,11 @@ public class BOJ_2529 {
             answers.add(number);
             return;
         }
-        for (int i = 0; i <= N; i++) {
+        for (int i = 0; i <= 9; i++) {
             if (CHECK[i]) {
                 continue;
             }
-            if (index == 0 || check(number.charAt(index - 1), (char) i + '0', CHARACTERS[i - 1])) {
+            if (index == 0 || check(number.charAt(index - 1), (char) i + '0', CHARACTERS[index - 1])) {
                 CHECK[i] = true;
                 solution(index + 1, number + i);
                 CHECK[i] = false;
@@ -67,6 +68,6 @@ public class BOJ_2529 {
         N = Integer.valueOf(st.nextToken());
 
         CHARACTERS = br.readLine().split(" ");
-        CHECK = new boolean[N];
+        CHECK = new boolean[10];
     }
 }
