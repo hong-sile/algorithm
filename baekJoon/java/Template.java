@@ -22,9 +22,9 @@
 //
 //        final BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 //        StringTokenizer st = new StringTokenizer(br.readLine());
-//        final Integer n = Integer.valueOf(st.nextToken());
+//        final int n = Integer.parseInt(st.nextToken());
 //
-//        for (Integer index = 0; index < n; index++) {
+//        for (int index = 0; index < n; index++) {
 //            st = new StringTokenizer(br.readLine());
 //            System.out.println(st.nextToken());
 //        }
