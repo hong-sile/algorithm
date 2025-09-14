@@ -3,11 +3,19 @@
 */*.exe
 */*.xml
 */*.iml
-*/*.class
 */*.pb
-*/*.txt
 
 .vscode/
 
 goorm.manifest
+
+# Java compiled files
+*.class
+**/*.class
+
+# IDE output directories
+out/
+
+# Text files (input/output)
+*.txt
 
